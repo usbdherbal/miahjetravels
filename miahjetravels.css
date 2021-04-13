@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+
+/* top bar start */
+.top-bar {
+    padding: 20px 10px;
+    font-size: 14px;
+    color: #FF6F61;
+    background: #000000;
+}
+.top-bar a{
+    text-decoration: none;
+    color: rgb(176, 234, 241);
+    font-size: 15px;
+    transition: 0.8s ease-in-out;
+}
+.top-bar a:hover{
+    color: red;
+}
+.top-bar i {
+    margin-right: 5px;
+}
+
+.top-bar .col-sm-6:first-child {
+    text-align: left;
+}
+
+.top-bar .col-sm-6:last-child {
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    .top-bar {
+        border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    
+    .top-bar .col-sm-6:first-child,
+    .top-bar .col-sm-6:last-child {
+        text-align: center;
+    }
+}
+/* top bar end */
+
+
+/* nav bar start */
+#brand{
+    text-shadow: 5px 0px 2px;
+    margin-left: 10px;
+    transition: 0.8s;
+}
+#brand:hover{
+transform: scale(1.1);
+}
+
+
+
+#nav a:hover{
+    background-color: lightgray;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+@media screen and (max-width: 600px) {
+    #nav a{
+        background-color: gray;
+        margin: 5px;
+    }
+    #nav a:hover{
+    background-color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+    border-radius: 5px;
+    }
+
+}
+/* nav bar end */
+
+/* review start */
+.review{
+    background-color: lightgray;
+}
+.review-img{
+    transition: 0.5s;
+}
+.review-img:hover{
+    transform: scale(1.5);
+    margin-left: 150px;
+    cursor: pointer;
+}
+/* review end */
+
+
+.background{
+    background-image: url(brand/parallax-bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover; 
+    position: relative;
+    opacity: 1;
+}
+.background:hover{
+    opacity: 0.3;
+}
+.offer{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    
+}
+.offer h1{
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.offer h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+    
+}
+.offer h1:hover{
+    color: tomato;
+    transform: 1.8;
+}
+.offer h2:hover{
+    color: tomato;
+    transform: 1.8;
+}
+
+
+.img-fluid{
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 1;
+}
+.img-fluid:hover{
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+ .team{
+     font-weight: bold;
+     color: rgb(174, 255, 11);
+ }   
+.card-body img{
+width: 100%;
+height: 220px;
+}
+.card-body h2{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 20px;
+}
+.card-body h4{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: lightgrey;
+    padding: 5px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* content start  */
+.content{
+    background-image: url(brand/03.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover; 
+    position: relative;
+}
+.conten{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+#form1{
+    height: 50px;
+    width: 80%;
+    padding: 0px 20px;
+    border: none; 
+    transition: 0.5s;
+}
+#form1:hover{
+    border: 2px solid greenyellow;
+   transform: scale(1);
+    border-radius: 5px;
+}
+.conten h1{
+    font-weight: bold;
+    color: white;
+}
+.conten p{
+    color: rgb(239, 240, 232);
+}
+#btn{
+    height: 50px;
+    width: 70px;
+    font-weight: bold;
+    background-color: rgb(94, 236, 89);
+    border: none;
+    transition: 0.5s;
+}
+#btn:hover{
+outline: 1;
+color: white;
+cursor: pointer;
+background-color: yellowgreen;
+transform: scale(1);
+}
+/* content end  */
+
+.brand{
+    background-color: rgb(231, 230, 230);
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+.brand-item{
+    display: inline-block;
+   box-shadow: 0px 0px 10px 0px;
+   border: 2px solid lightgrey;
+   margin-left: 10px;
+   color: white;
+   cursor: pointer;
+}
+
+
+
+
+
+
+
+/******** Footer Bottom CSS *******/
+
+.footer-bottom {
+    position: relative;
+    padding: 25px 0;
+    background: #000000;
+}
+
+.footer-bottom .copyright {
+    text-align: left;
+}
+
+.footer-bottom .template-by {
+    text-align: right;
+}
+
+.footer-bottom .copyright p,
+.footer-bottom .template-by p {
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer-bottom .copyright p a,
+.footer-bottom .template-by p a {
+    font-weight: 600;
+}
+
+.footer-bottom .copyright p a:hover,
+.footer-bottom .template-by p a:hover {
+    color: #ffffff;
+}
+.social-icon{
+    color: rgb(252, 248, 248);
+   margin-right: 15px;
+   transition: 0.5s;
+}
+.social-icon:hover{
+    color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.footer-bottom .link{
+    color: rgb(49, 48, 48);
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-bottom .link a{
+    color: rgb(148, 148, 148);
+}
+@media (max-width: 768.98px) {
+    .footer-bottom .copyright,
+    .footer-bottom .template-by {
+        text-align: center; 
+    } 
+}
+
+
+
+
+/* back-to-top start */
+.back-to-top {
+    position: fixed;
+    background: rgb(228, 218, 217);
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 4px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top i {
+    padding-top: 12px;
+    color: #ffffff;
+}
+/* back-to-top end */
